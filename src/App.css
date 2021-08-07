@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #FAFAFA;
+}
+
+.App__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  background-color: #fff;
+  object-fit: contain;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.App__headerImage, .App__signInImage, .App__signUpImage {
+  width: 100px;
+  object-fit: contain;
+}
+
+.App__signInInput, .App__signInImage, .App__signUpImage, .App__signUpInput {
+  margin-bottom: 2rem;
+}
+
+.App__signUp {
+  border-radius: 20px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.App__logout {
+  width: 13rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App__posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App__pleaseLogin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 2rem;
+}

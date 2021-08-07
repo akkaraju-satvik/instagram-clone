@@ -1,0 +1,47 @@
+.ImageUpload__container{
+    display: flex;
+    justify-content: center;
+}
+
+.ImageUpload {
+    border-radius: 20px;
+    width: 90%;
+    height: 50vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width:425px) {
+    .ImageUpload {
+        width: 100%
+    }
+}
+
+.ImageUpload__progress {
+    margin-bottom: 1rem;
+}
+
+.ImageUpload__caption {
+    margin-bottom: 1rem;
+}
+
+.ImageUpload__file {
+    margin-bottom: 2rem;
+}
+.Modal {
+    height: 30vh;
+}
+
+.ImageUpload__open {
+    background-color: tomato !important;
+    margin: 2rem !important;
+    left: 50%;
+    transform: translateX(-70%);
+}
